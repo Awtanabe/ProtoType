@@ -22,3 +22,31 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+# 機能
+
+  記事一覧表示画面
+　  表示機能
+　　編集機能
+　　投稿機能　
+
+
+# モデル
+
+  article
+
+  user
+
+  
+
+# controller 
+
+  welcome 
+
+
+# gem
+
+  slim
+
+
