@@ -2,8 +2,12 @@
 
 one:
   title: MyString
+  day: 2018-07-31 22:10:53
   text: MyText
+  image: MyString
 
 two:
   title: MyString
+  day: 2018-07-31 22:10:53
   text: MyText
+  image: MyString
