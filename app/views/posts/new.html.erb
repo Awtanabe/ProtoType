@@ -2,19 +2,33 @@
 <h1>新しい投稿</h1>
 
 <%= form_for :post, url: posts_path do |f| %>
+<div>
+ <p>
+ 	<div>
+     	<%=f.label :title,"タイトル" %> 		
+ 	</div>
+    <div>
+       　　<%=f.text_field :title %>	 
+    </div>
+ </p>	
+</div>
 
-<p>
-	<%=f.label :title,"タイトル" %>
-　　<%=f.text_field :title %>
-</p>
+<div>
+ <p>
+ 	<div>
+       <%=f.label :text, "内容"%>		
+   	</div>
+    <div>
+       <%=f.text_area :text,cpls:60, row: 8 %>   	
+    </div>
 
-<p>
-   <%=f.label :text, "内容"%>
-   <%=f.text_area :text,cpls:60, row: 8 %>
-</p>
+ 
+ </p>	
+</div>
 
-<p>
+<div>
+ <p>
 	<%=f.submit %>
-</p>
-
+ </p>	
+</div>
 <%end%>
